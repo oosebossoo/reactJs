@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -39,4 +39,25 @@
 
 .read-the-docs {
   color: #888;
+}
+
+#header {
+  top: 0px;
+  height: 100px;
+  width: 100%;
+  float: left;
+}
+
+nav {
+  margin-left: 1000px;
+}
+
+nav > div {
+  top: 0px;
+  margin: 10px;
+  border-style: solid;
+  border-width:1px;
+  border-color: black;
+  border-radius: 5px;
+  float: left;
 }
